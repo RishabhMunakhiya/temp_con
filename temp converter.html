@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp-Converter Web</title>
+    <link rel="shortcut icon" href="temp.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="temp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="temp">
+        <h1>Temperature Converter</h1>
+        <h3>Result : </h3>
+      </div>
+
+      <div class="main">
+        <div class="label">
+          <label for="degree"> ° C</label>
+          <input type="number" name="degree" id="degree" />
+        </div>
+
+        <div class="temp-field">
+          <label for="temp-type">Type</label>
+          <select name="temp-type" id="temp-type">
+            <option value="#">Select</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="convert-btn">
+        <button id="convert-button">Convert</button>
+      </div>
+    </div>
+    <script src="temp.js"></script>
+  </body>
+</html>
